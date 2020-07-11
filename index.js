@@ -2,10 +2,6 @@
 const fs = require('fs');
 const csvsync = require('csvsync');
 
-
-
-
-
 //mailer;
 
 
@@ -32,7 +28,7 @@ const mailCollege=(college, email,i)=>{
     subject: "Request from a prospective freshman",
     text: 
     `Dear ${college},\n
-    I’m Illyssa! I have recently finished my XXXXXXXXXX in XXXXXXXXXX atXXXXXXXXXX and I hope to further my studies in the US. 
+    I’m xxxxxx! I have recently finished my XXXXXXXXXX in XXXXXXXXXX atXXXXXXXXXX and I hope to further my studies in the US. 
     I’m very keen on applying to ${college} as it looks like just the right community I want to be a part of. 
 
     While I am still considering my options, I would highly appreciate any sort of college materials you could send me to help guide my decision.
@@ -59,8 +55,6 @@ const mailCollege=(college, email,i)=>{
     
   })
 }
-
-
 
 
 
